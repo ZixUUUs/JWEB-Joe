@@ -12,7 +12,7 @@ function SearchBar({ data, onClose }) {
   return (
     <motion.div
       className="overlay"
-      initial={{ y: -100, opacity: 0 }}
+      initial={{ y: 0, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: -100, opacity: 0 }}
       transition={{ duration: 0.2 }}
@@ -32,8 +32,10 @@ function SearchBar({ data, onClose }) {
         <div className="search-list">
           {filteredData.length > 0 ? (
             <ul>
-              {filteredData.map((item) => (
-                <li key={item.id}>{item.name}</li>
+              {filteredData.map((item, index) => (
+                <li key={item.id || index}>
+                  <a href={item.link}>{item.name}</a>
+                </li>
               ))}
             </ul>
           ) : (
