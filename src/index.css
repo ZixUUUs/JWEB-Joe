@@ -131,7 +131,9 @@ header,
   color: #000000;
 }
 /* ----------------------------------------------------Article---------------------------------------------------- */
-.padding-container-section a {
+.padding-container-section .FP-container {
+  display: flex;
+  height: inherit;
   min-height: 80dvh;
 }
 
@@ -141,7 +143,7 @@ header,
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 90%;
+  height: 100%;
   padding: 10px;
   background: #8a8888;
   border-radius: 8px;
@@ -157,7 +159,7 @@ header,
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   color: #ffffff;
 }
@@ -168,5 +170,90 @@ header,
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 10px;
+  color: #ffffff;
+}
+.SP-article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  padding: 15px;
+}
+.SP-img {
+  width: 100%;
+  min-height: 115px;
+}
+.SP-img img {
+  border-radius: 8px;
+}
+.SP-title h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+.SP-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: auto;
+  text-align: center;
+  color: #000000;
+}
+.SP-btn a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: #8a8888;
+}
+.TP-article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: 1;
+  min-height: 200px;
+}
+.TP-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #8a8888;
+}
+.TP-img {
+  width: 46%;
+  height: 100%;
+}
+.TP-img img {
+  border-radius: 8px;
+}
+.TP-text {
+  align-items: anchor-center;
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+.TP-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: start;
   color: #ffffff;
 }

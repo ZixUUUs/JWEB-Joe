@@ -1,6 +1,6 @@
 function FirstPageArticle({ data }) {
   return (
-    <a href={data.link}>
+    <a href={data.link} className="FP-container">
       <article className="FP-article">
         <div className="FP-img cover">
           <img src={data.img} alt={data.title} />

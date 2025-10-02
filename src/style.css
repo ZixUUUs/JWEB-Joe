@@ -22,11 +22,22 @@ section {
   max-width: 1600px;
   margin: 0 auto;
 }
+.Second-sec {
+  min-height: 360px;
+}
 .padding-container-section {
   display: flex;
   width: 100%;
   height: 100%;
   padding: 10px;
+}
+.padding-container-second-sec {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  min-height: 360px;
 }
 .contain img {
   width: 100%;
