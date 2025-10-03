@@ -6,6 +6,7 @@ import Header from "./Header";
 import HeroSec from "./HeroSec";
 import SecondSec from "./SecondSec";
 import ThirdSec from "./ThirdSec";
+import Rubrique from "./Rubrique";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -13,5 +14,6 @@ createRoot(document.getElementById("root")).render(
     <HeroSec></HeroSec>
     <SecondSec></SecondSec>
     <ThirdSec></ThirdSec>
+    <Rubrique></Rubrique>
   </StrictMode>
 );

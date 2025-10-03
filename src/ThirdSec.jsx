@@ -3,10 +3,11 @@ import ThirdPage from "./components/thirdPage";
 function ThirdSec() {
   const featuredMatches = {
     id: 1,
-    desc: "Barcelone vs PSG",
-    text: "Nikmou ytoh ya3ti nahkmek nikek man9tlkch kolyoum tet3adeb hata tweli t7alel ya l9a7ba",
+    desc: "Fuck natanyahu",
+    title: "FDP de premiere",
+    text: "Le tueurs d'enfant frappe encore et l'amerique aime sucuer les juifs",
     img: "public/nikmo.webp",
-    link: "/Sport/barca-psg-2025",
+    link: "/Politique/politique-putes",
   };
   return (
     <section className="ThirdSec">

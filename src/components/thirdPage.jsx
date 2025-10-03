@@ -6,6 +6,7 @@ function ThirdPage({ data }) {
           <img src={data.img} alt={data.desc} />
         </div>
         <div className="TP-text">
+          <h3>{data.title}</h3>
           <p>{data.text}</p>
         </div>
       </a>
